@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="sysle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" value="0" class="display" readonly >
+            <div class="buttons">
+                <button value="AC" class="btn" onclick="Cleardisplay()">AC</button>
+                <button value="Del" class="btn" onclick="delet()">Del</button>
+                <button value="%" class="btn" onclick=" appendoprator('%')">%</button>
+                <button value="/" class="btn" onclick="appendoprator('/')">/</button>
+
+                <button value="7" class="btn"  onClick="appendnumber('7')" >7</button>
+                <button value="8" class="btn" onClick="appendnumber('8')" >8</button>
+                <button value="9" class="btn" onClick="appendnumber('9')" >9</button>
+                <button value="*" class="btn" onclick="appendoprator('*')">&times;</button>
+
+                <button value="4" class="btn" onclick="appendnumber('4') ">4</button>
+                <button value="5" class="btn" onclick="appendnumber('5') ">5</button>
+                <button value="6" class="btn" onclick="appendnumber('6') ">6</button>
+                <button value="+" class="btn" onclick="appendoprator('+')">+</button>
+
+                <button value="1" class="btn" onClick="appendnumber('1')" >1</button>
+                <button value="2" class="btn" onClick="appendnumber('2')" >2</button>
+                <button value="3" class="btn" onClick="appendnumber('3')" >3</button>
+                <button  value="-" class="btn" onclick="appendoprator('-')">-</button>
+
+                <button value="0" class="btn" onClick="appendnumber('0')" >0</button>
+                <button value="00" class="btn" onClick="appendnumber('00')" >00</button>
+                <button value="." class="btn" onClick="appendnumber('.')" >.</button>
+                <button value="=" class="btn"  onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

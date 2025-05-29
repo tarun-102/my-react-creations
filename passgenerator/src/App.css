@@ -1,0 +1,36 @@
+.div1{
+  background-color: #2D1B45;;
+  height: 180px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.divinput input{
+  height: 33px;
+  width: 300px;
+  outline: none;
+  border-radius: 5px 0px 0px 5px ;
+  border: none;
+}
+button{
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  color: white;
+  font-weight: bolder;
+  border-radius: 0px 5px 5px 0px;
+}
+h1{
+  color: white;
+  font-size: x-large; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lengthbar{
+  color: coral;
+}
