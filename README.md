@@ -41,12 +41,20 @@ npm install
 
 ```
 npm run dev
+
 ```
 Technologies Used
+
 React.js
+
 JavaScript 
+
 CSS / Tailwind CSS
+
 React Router
+
 Context API
+
 LocalStorage API
+
 ```
