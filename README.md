@@ -32,23 +32,21 @@ This repo contains various small to medium scale projects that I have built to s
 git clone https://github.com/yourusername/your-repo-name.git
 Navigate to the project folder you want to run:
 cd project-folder-name
-
-Install dependencies:
+```
+2. Install dependencies:
+```
 npm install
+```
+3. Start the development server:
 
-Start the development server:
+```
 npm run dev
-
+```
 Technologies Used
 React.js
-
-JavaScript (ES6+)
-
+JavaScript 
 CSS / Tailwind CSS
-
 React Router
-
 Context API
-
 LocalStorage API
-
+```
