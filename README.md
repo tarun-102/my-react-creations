@@ -44,17 +44,17 @@ npm run dev
 
 ```
 Technologies Used
-
+<br />
 React.js
-
+<br />
 JavaScript 
-
+<br />
 CSS / Tailwind CSS
-
+<br />
 React Router
-
+<br />
 Context API
-
+<br />
 LocalStorage API
+<br />
 
-```
