@@ -5,7 +5,6 @@ import authService from './appwrite/auth'
 import {login, logout} from './store/authslice'
 import { Header, Footer }  from './components'
 import { Outlet } from 'react-router-dom'
- 
 function App() {
   const [loading,setLoading] = useState(true);
   const dispatch = useDispatch()
@@ -33,6 +32,7 @@ function App() {
 
   return !loading ? (
     <div className='min-h-screen flex flex-wrap con content-between br-gray-400 text-xl'>
+      <h1 className=''></h1>
       <Header  />
       <main>
         <Outlet />
