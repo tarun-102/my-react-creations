@@ -17,7 +17,7 @@ export class AuthService {
             const userAccount = await this.account.create(ID.unique(), email, password, name)
             if (userAccount) {
                 //call anoter method
-                return this.login({email,password});
+                return this.login({ email, password });
             } else {
                 return userAccount
             }
@@ -26,14 +26,14 @@ export class AuthService {
         }
     }
 
-    async login({email,password}){
+    async login({ email, password }) {
         try {
-           return await this.account.createEmailPasswordSession(email,password);
+            return await this.account.createEmailPasswordSession(email, password);
         } catch (error) {
             throw error;
         }
     }
-    async getcurrentuser(){
+    async getcurrentuser() {
         try {
             return await this.account.get();
         } catch (error) {
@@ -42,7 +42,7 @@ export class AuthService {
         return null;
     }
 
-    async logout(){
+    async logout() {
         try {
             await this.account.deleteSessions('current')
         } catch (error) {
