@@ -1,2 +1,3 @@
 megablog/.env
 megablog/src/store/.env
+megablog/src/.env
