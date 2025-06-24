@@ -27,7 +27,7 @@ function App() {
   };
 
   fetchUser();
-}, []);
+}, [dispatch]);
 
 
   return !loading ? (
